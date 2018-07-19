@@ -1,0 +1,40 @@
+body {
+  margin: 40px auto;
+  width: 40vw;
+  max-width: 470px;
+  font-family: "font-family: 'Amaranth', sans-serif;
+   
+}
+
+h1{
+  color:#77ACA2;}
+}
+@media screen and (max-width: 700px) {
+  body {
+    width: 75vw;
+  }
+}
+@media screen and (max-width: 480px) {
+  body {
+    width: 80vw;
+  }
+}
+
+p {
+  line-height: 1.5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+a.button {
+  display: inline-block;
+  margin: 12px 0 0 0;
+  color: white;
+  background: #222;
+  padding: 10px 15px;
+}
+a.button:hover {
+  opacity: 0.9;
+}
